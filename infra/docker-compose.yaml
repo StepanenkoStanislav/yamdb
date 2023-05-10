@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: "disohek/yamdb_final:v1"
+    image: disohek/yamdb_final:v1
     restart: always
     volumes:
       - static_value:/app/static/
