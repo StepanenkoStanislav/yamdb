@@ -1,4 +1,4 @@
-https://github.com/diso-rgb/yamdb_final/actions/workflows/yamdb_workflow/badge.svg
+https://github.com/diso-rgb/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
   
 # Проект YAMDB
 
