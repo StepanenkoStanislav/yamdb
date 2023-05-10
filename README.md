@@ -1,3 +1,5 @@
+https://github.com/diso-rgb/yamdb_final/actions/workflows/yamdb_workflow/badge.svg
+  
 # Проект YAMDB
 
 ## Описание проекта
