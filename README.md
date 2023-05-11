@@ -31,7 +31,7 @@
 аутентифицированные пользователи.
 
 ## Установка
-В директории infra_sp2/infra необходимо создать файл .env (пример находится в infra_sp2/infra/example.env), где необходимо указать:
+В директории yamdb_final/infra необходимо создать файл .env (пример находится в infra_sp2/infra/example.env), где необходимо указать:
 ```python
 DB_ENGINE=django.db.backends.postgresql - указываем, что работаем с postgresql
 DB_NAME=postgres - имя базы данных
@@ -43,7 +43,7 @@ DB_PORT=5432 - порт для подключения к БД
 
 Запуск проекта
 ```python
-# В директории infra_sp2/infra
+# В директории yamdb_final/infra
 docker-compose up --build
 docker-compose exec web python manage.py migrate
 ```
