@@ -39,6 +39,7 @@ POSTGRES_USER=postgres - логин для подключения к базе д
 POSTGRES_PASSWORD=postgres - пароль для подключения к БД
 DB_HOST=db - название сервиса (контейнера)
 DB_PORT=5432 - порт для подключения к БД 
+SECRET_KEY=secret_key - SECRET_KEY из settings.py
 ```
 
 Запуск проекта
