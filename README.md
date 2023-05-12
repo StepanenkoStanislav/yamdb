@@ -64,7 +64,7 @@ docker-compose exec web python manage.py loaddata fixtures.json
 docker-compose exec web python manage.py collectstatic
 ```
 
-Описание [ендпоинтов API](http://127.0.0.1:8000/redoc/)
+Описание [ендпоинтов API](http://158.160.100.47/redoc/)
 
 ## Технологии
 
