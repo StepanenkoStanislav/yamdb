@@ -31,7 +31,7 @@
 аутентифицированные пользователи.
 
 ## Установка
-В директории yamdb_final/infra необходимо создать файл .env (пример находится в infra_sp2/infra/example.env), где необходимо указать:
+В директории yamdb_final/infra необходимо создать файл .env (пример находится в yamdb_final/infra/example.env), где необходимо указать:
 ```python
 DB_ENGINE=django.db.backends.postgresql - указываем, что работаем с postgresql
 DB_NAME=postgres - имя базы данных
