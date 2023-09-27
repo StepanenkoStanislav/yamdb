@@ -1,5 +1,4 @@
-![](https://github.com/diso-rgb/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-  
+
 # Проект YAMDB
 
 ## Описание проекта
@@ -31,7 +30,7 @@
 аутентифицированные пользователи.
 
 ## Установка
-В директории yamdb_final/infra необходимо создать файл .env (пример находится в yamdb_final/infra/example.env), где необходимо указать:
+В директории yamdb/infra необходимо создать файл .env (пример находится в yamdb/infra/example.env), где необходимо указать:
 ```python
 DB_ENGINE=django.db.backends.postgresql - указываем, что работаем с postgresql
 DB_NAME=postgres - имя базы данных
@@ -44,7 +43,7 @@ SECRET_KEY=secret_key - SECRET_KEY из settings.py
 
 Запуск проекта
 ```python
-# В директории yamdb_final/infra
+# В директории yamdb/infra
 docker-compose up --build
 docker-compose exec web python manage.py migrate
 ```
